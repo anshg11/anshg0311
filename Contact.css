@@ -1,0 +1,232 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Montserrat', sans-serif;
+box-sizing: border-box; 
+}
+
+.background{
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px 8%;
+    position: fixed;
+    color: #fff;
+    background:
+        linear-gradient(
+            rgba(0,0,0,.85),
+            rgba(0,0,0,.85)
+        ),
+        url(gray-zymh0wu3fylayofb.jpeg);
+}
+
+.bar{
+    position: absolute;
+    background-color: #0d0d0d;
+    z-index: 10;
+    height: 100px;
+    width: 100%;
+    top: 0;
+    box-shadow: .5px .5px 10px #f8f8ff; 
+}
+
+.bar nav{
+    position: relative;
+   /* top: 0;
+    left: 0;
+    padding: 15px 8%; */
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    z-index: 11; 
+}
+
+nav img{
+    width: 100px;
+}
+
+nav ul{ 
+    padding-left: 40px;
+    text-shadow: 0px 0px 5px #f8f8ff;
+    width: 100%;
+    position: relative;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 70px;
+}
+
+
+nav a{
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: #fff;
+}
+
+  li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #3db489;
+    transform-origin: bottom left right;
+    transition: transform 0.3s ease-out;
+}
+
+ li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom center;
+    
+}
+
+form{
+    position: absolute;
+    left: 300;
+    top: 200;
+    border-right: 2px solid #3db489;
+    height: 470px;
+    padding-right: 40px;
+}
+
+form label:nth-child(1){
+    font-size: 25px;
+}
+
+.psub{
+    max-width: 350px;
+}
+
+.one {
+    width:350px;
+    height:30px;
+    background-color: lightgray;
+}
+
+.two {
+    width: 350px;
+    height: 80px;
+    background-color: lightgray;
+
+}
+
+.background button{
+    border:0;
+    margin-top: 30px;
+    padding: 15px 30px;
+    margin-right: 10px;
+    color: #000;
+    background-color: #3db489;
+    font-weight: 50px; 
+    font-size: 15px;
+    cursor: pointer; 
+
+}
+
+.background button:hover{
+    background-color: #2b765b;
+    color: #000000;
+} 
+
+.email{
+    position: absolute;
+    width: 50px;
+    top: 220;
+    left: 915px;
+    filter: opacity(0.5) drop-shadow(0 0 0 #3db489) brightness(300%);
+}  
+
+.pmail{
+    position: absolute;
+    font-size: 25px;
+    top: 280;
+    left: 904px;
+    color: #fff;
+}
+
+.pmailin {
+    position: absolute;
+    font-size: 15px;
+    top: 320;
+    left: 795px;
+    color: #fff;
+}
+
+.emailsec{
+    position: absolute;
+    left: -10;
+    top: 220;
+}
+
+.linkedin{
+    position: absolute;
+    width: 35px;
+    top: 260;
+    left: 800px;
+    filter: opacity(0.5) drop-shadow(0 0 0 #3db489) brightness(300%);
+}  
+
+.pinkedin{
+    position: absolute;
+    font-size: 25px;
+    top: 300;
+    left: 765px;
+    color: #fff;
+} 
+
+.linkedsec{
+    position: absolute;
+    top: 50;
+    left: -10;
+}
+
+.linkedin:hover{
+    filter: opacity(0.5) drop-shadow(0 0 0 #2b765b) brightness(300%);
+}
+
+.git{
+    position: absolute;
+    width: 47px;
+    top: 255;
+    left: 790px;
+    filter: opacity(0.5) drop-shadow(0 0 0 #3db489) brightness(300%);
+}  
+
+.gitin{
+    position: absolute;
+    font-size: 25px;
+    top: 300;
+    left: 765px;
+    color: #fff;
+} 
+
+.gitsec{
+    position: absolute;
+    top: 50;
+    left: 240;
+}
+
+.git:hover{
+    filter: opacity(0.5) drop-shadow(0 0 0 #2b765b) brightness(300%);
+}
+
+#msg{
+    position:absolute;
+    left: 480px;
+    top: 620px;
+    color: #008000;
+}
+
+.form2{
+    position: absolute;
+    left: -5px;
+}
+
+
+
+
