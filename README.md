@@ -30,15 +30,13 @@ Here are some of the projects I've worked on:
 
 1. **Greenbyte Labs Website Redesign:** Collaborated with a team to redesign Greenbyte Labs' website, enhancing user experience and aesthetics.
 
-2. **Model-UN Simulation Tool:** Developed a simulation tool to aid committee leaders and participants in conducting virtual debates and discussions for Model-UN.
-
-3. **Personal Portfolio Website:** Designed and developed my personal portfolio website, showcasing my skills and experiences.
+2. **Personal Portfolio Website:** Designed and developed my personal portfolio website, showcasing my skills and experiences.
 
 ## Contact
 
 Feel free to reach out to me:
 
-- Email: [your.email@example.com](mailto:your.email@example.com)
+- Email: [anshghetiya11@gmail.com](mailto:anshghetiya11@gmail.com)
 - LinkedIn: [Ansh Ghetiya](https://www.linkedin.com/in/ansh-ghetiya)
 
 Thank you for visiting my portfolio!
